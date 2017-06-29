@@ -1,4 +1,4 @@
-package com.github.danielfelgar.drawreceiptlib;
+package com.github.danielfelgar.drawreceiptlib.star;
 
 import android.content.Context;
 import android.graphics.Bitmap;

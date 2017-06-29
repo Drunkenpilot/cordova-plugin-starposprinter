@@ -6,7 +6,7 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.util.Log;
 
-import com.github.danielfelgar.drawreceiptlib.ReceiptBuilder;
+import com.github.danielfelgar.drawreceiptlib.star.ReceiptBuilder;
 
 import org.json.JSONArray;
 import org.json.JSONException;

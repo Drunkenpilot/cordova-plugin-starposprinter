@@ -65,21 +65,19 @@
         <string name="handlingmsg_err_battery_real_end">Please connect AC adapter or change the battery.\nBattery of printer is almost empty.\n</string>
         <string name="handlingmsg_err_offline">Printer is offline.\n</string>
       </config-file>
-      <source-file src="src/android/res/xml/device_filter.xml" target-dir="res/xml/" />
-      <source-file src="src/android/res/xml/accessory_filter.xml" target-dir="res/xml/" />
+      <source-file src="src/android/res/xml/device_filter_star.xml" target-dir="res/xml/" />
+      <source-file src="src/android/res/xml/accessory_filter_star.xml" target-dir="res/xml/" />
       <source-file src="src/android/StarPrinter.java" target-dir="src/be/betalife/cordova/plugin/starposprinter" />
       <source-file src="src/android/ReceiptBuilderExt.java" target-dir="src/be/betalife/cordova/plugin/starposprinter" />
       <source-file src="src/android/RasterDocument.java" target-dir="src/be/betalife/cordova/plugin/starposprinter" />
       <source-file src="src/android/StarBitmap.java" target-dir="src/be/betalife/cordova/plugin/starposprinter" />
       <source-file src="libs/StarIOPort3.1.jar" target-dir="libs" />
-      <source-file src="src/android/drawreceiptlib/DrawBlankSpace.java" target-dir="src/android/drawreceiptlib"/>
-      <source-file src="src/android/drawreceiptlib/DrawImage.java" target-dir="src/android/drawreceiptlib"/>
-      <source-file src="src/android/drawreceiptlib/DrawLine.java" target-dir="src/android/drawreceiptlib"/>
-      <source-file src="src/android/drawreceiptlib/DrawText.java" target-dir="src/android/drawreceiptlib"/>
-      <source-file src="src/android/drawreceiptlib/IDrawItem.java" target-dir="src/android/drawreceiptlib"/>
-      <source-file src="src/android/drawreceiptlib/ReceiptBuilder.java" target-dir="src/android/drawreceiptlib"/>
-      <resource-file src="src/android/res/drawable/store.png" target="res/drawable/store.png" />
-
+      <source-file src="src/android/star/drawreceiptlib/DrawBlankSpace.java" target-dir="src/android/star/drawreceiptlib"/>
+      <source-file src="src/android/star/drawreceiptlib/DrawImage.java" target-dir="src/android/star/drawreceiptlib"/>
+      <source-file src="src/android/star/drawreceiptlib/DrawLine.java" target-dir="src/android/star/drawreceiptlib"/>
+      <source-file src="src/android/star/drawreceiptlib/DrawText.java" target-dir="src/android/star/drawreceiptlib"/>
+      <source-file src="src/android/star/drawreceiptlib/IDrawItem.java" target-dir="src/android/star/drawreceiptlib"/>
+      <source-file src="src/android/star/drawreceiptlib/ReceiptBuilder.java" target-dir="src/android/star/drawreceiptlib"/>
     </platform>
 
   </plugin>

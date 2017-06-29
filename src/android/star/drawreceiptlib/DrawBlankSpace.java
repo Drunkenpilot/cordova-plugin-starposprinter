@@ -1,4 +1,4 @@
-package com.github.danielfelgar.drawreceiptlib;
+package com.github.danielfelgar.drawreceiptlib.star;
 
 import android.graphics.Canvas;
 
