@@ -1,0 +1,28 @@
+{
+  "name": "cordova-plugin-starposprinter",
+  "version": "0.0.1",
+  "description": "Cordova StarIO Pos Printer Plugin",
+  "cordova": {
+    "id": "cordova-plugin-starprinter",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Drunkenpilot/cordova-plugin-starposprinter.git"
+  },
+  "keywords": [
+    "cordova",
+    "StarIO",
+    "pos printer",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Beta Life - HZY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Drunkenpilot/cordova-plugin-starposprinter/issues"
+  },
+  "homepage": "https://github.com/Drunkenpilot/cordova-plugin-starposprinter#readme"
+}
